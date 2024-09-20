@@ -1,0 +1,47 @@
+algorythm   (prix des billets)
+var
+enfant, adolescent, majeur : integer;
+prix :num
+begin
+    ecrire ("veuillez entrez votre age!")
+    prix= 0
+    if (enfant =< 12ans) then
+        prix = prix + 10
+    
+        Sinon
+            Si (adolescent (13-17ans)) then
+                prix = prix + 15
+                Sinon 
+                prix = prix + 20
+        Fin Si
+        
+        
+        
+    end if
+    ecrire "vous me devez :", prix
+end
+    
+
+
+
+algorythm (conseiller en vetement meteo)
+
+var 
+    climat :meteo
+begin
+    ecrire("quel temps fait il!")
+    lire (climat)
+    if (climat est chaud) then
+        Ecrire porter un short et un t-shirt
+        Sinon
+            Si (climat est froid) alors
+            Ecrire porter un pull-over
+            Fin Si
+        Sinon    
+            Si (climat est nuageux) alors
+            Ecrire emporter un parapluie
+            Sinon (climat pleut) 
+            Ecrire rester a la maison pour ne aps se mouiller
+            Fin Si
+    end if
+end
